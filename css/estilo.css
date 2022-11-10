@@ -239,13 +239,12 @@ fieldset{
 
    
 }
-#nombres_lista{
-    color: whitesmoke;
-    font-size: x-large  ;
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none
+#foto_album{
+    height: 80%;
+    width: 65%;
 
 }
+
 #fechas_lista{
     color: whitesmoke;
     font-size: x-large ;
@@ -258,6 +257,38 @@ fieldset{
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
 }
+@media screen and (max-width:480px) {
+    table{
+        width: 100%;
+        height: 300px;
+
+    }
+    #foto_album{
+        width: 100%;
+        height: 65%;
+    }
+    #cabeza_lista{
+        color: whitesmoke;
+        font-size: small ;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+    }
+
+    #fechas_lista{
+        color: whitesmoke;
+        font-size: smaller ;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+
+    }
+    #canción{
+        color: whitesmoke;
+        font-size: smaller;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+    }
+}
+    
 
 
 #home{
