@@ -1,0 +1,691 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 140px;
+}
+#banner2{
+    width: 53%;
+    height: 100%;
+
+}
+@media screen and (max-width: 480px) {
+    header{
+        width: 100%;
+        height: 120px;
+        justify-content: space-around;
+    }
+    #banner2{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+    
+body{
+    height: auto;
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 480px) {
+    nav{
+        background-color: black;
+        width: 100%;
+        height: 130px; 
+
+    }
+}
+
+    
+
+#navegador_padre{
+    display: flex;
+    justify-content: space-evenly;
+    height: 90px;
+    align-items: center;
+    width: 100%;
+}
+@media screen and (max-width:480px) {
+    #navegador_padre{
+        display: block;
+        width: 100%;
+
+
+    }
+}
+    
+
+#link_nav{
+    color: white;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+
+}
+@media screen and (max-width: 480px) {
+    #link_nav{
+        color: white;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+
+    }
+}
+
+a{
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    background-image: url(../img/Fondo_test_3.jpg);
+}
+ 
+#grilla_galería_M5{
+    background-image: url(../img/Fondo_test_3.jpg);
+    display: grid;
+    grid-template-rows:400px 400px 400px ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    background-color: rgba(255, 255, 255, 0.774);
+    grid-template-areas:"F1 F2 F3"
+                        "F8 F4 F6"
+                        "F5 F7 F9";
+    column-gap: 1%;
+    row-gap: 0.5%;        
+
+}
+#F1{
+    grid-area: F1;
+    animation-name: F1;
+    animation-duration: 1s;
+}
+#F2{
+    grid-area: F2;
+    animation-name: F2;
+    animation-duration: 1.4s;
+}
+#F3{
+    grid-area: F3;
+    animation-name: F3;
+    animation-duration: 1.8s;
+}
+#F4{
+    grid-area: F4;
+    animation-name: F4;
+    animation-duration: 2.2s;
+}
+#F5{
+    grid-area: F5;
+    animation-name: F5;
+    animation-duration: 2.6s;
+}
+#F6{
+    grid-area: F6;
+    animation-name: F6;
+    animation-duration: 3s;
+}
+#F7{
+    grid-area: F7;
+    animation-name: F7;
+    animation-duration: 3.4s;
+}
+#F8{
+    grid-area: F8;
+    animation-name: F8;
+    animation-duration: 3.8s;
+}
+#F9{
+    grid-area: F9;
+    animation-name: F9;
+    animation-duration: 4.2s;
+}
+@keyframes F1{
+    0%{
+        transform: scale(0.5);
+    }
+}
+@keyframes F2{
+    0%{
+        transform: scale(0.5);
+    }
+}
+@keyframes F3{
+    0%{
+        transform: scale(0.5);
+    }
+}
+@keyframes F4{
+    0%{
+        transform: scale(0.5);
+    }
+}
+@keyframes F5{
+    0%{
+        transform: scale(0.5);
+    }
+}
+@keyframes F6{
+    0%{
+        transform: scale(0.5);
+    }
+}
+@keyframes F7{
+    0%{
+        transform: scale(0.5);
+    }
+}
+@keyframes F8{
+    0%{
+        transform: scale(0.5);
+    }
+}
+@keyframes F9{
+    0%{
+        transform: scale(0.5);
+    }
+}
+@media screen and (max-width:480px) {
+    #grilla_galería_M5{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+
+    }
+}
+table{
+    width: 100%;
+    height: 400px;
+}
+fieldset{
+    color: white;
+}
+#tr_prueba_css{
+    color: red;
+    width: 100%;
+    height: 130px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#cabeza_lista{
+    color: whitesmoke;
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+
+   
+}
+#foto_album{
+    height: 80%;
+    width: 65%;
+
+}
+
+#fechas_lista{
+    color: whitesmoke;
+    font-size: x-large ;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+#canción{
+    color: whitesmoke;
+    font-size: x-large ;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+@media screen and (max-width:480px) {
+    table{
+        width: 100%;
+        height: 300px;
+
+    }
+    #foto_album{
+        width: 100%;
+        height: 65%;
+    }
+    #cabeza_lista{
+        color: whitesmoke;
+        font-size: small ;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+    }
+
+    #fechas_lista{
+        color: whitesmoke;
+        font-size: smaller ;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+
+    }
+    #canción{
+        color: whitesmoke;
+        font-size: smaller;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+    }
+}
+    
+
+
+#home{
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+#home_playlist{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+   
+    
+    flex-direction: row;
+    
+}
+#música_texto_home{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    font-size: 24px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    
+
+}
+#home_galeria{
+    display: grid;
+    grid-template-rows: 140px 140px;
+    grid-template-columns: 75% 25%;
+    grid-template-areas:"a1 a2"
+                        "a1 a2";
+    align-items: stretch;
+    justify-items: stretch;
+}
+#galeria_texto_home{
+    display: flex;
+    grid-area: a1;
+    width: 100%;
+    font-size: 24px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+}
+#pregaleria{
+    grid-area: a2;
+}
+#spotify{
+    animation-name: spotify;
+    animation-duration: 3.5s;
+}
+@keyframes spotify{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 480px) {
+    #home{
+        color: whitesmoke;
+        font-size: 15px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+    }
+    #home_playlist{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+   
+    
+        flex-direction: row;
+    }
+    #música_texto_home{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        font-size: 15px;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        font-family: 'Oswald', sans-serif;
+        color: whitesmoke;
+    }
+    #spotify{
+        width: 100%;
+        height: 280px;
+    }
+    #galeria_texto_home{
+        display: flex;
+        grid-area: a1;
+        width: 100%;
+        font-size: 15px;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        font-family: 'Oswald', sans-serif;
+        color: whitesmoke;
+    }
+}
+    
+
+#Integrantes_M5{
+    display: grid;
+    grid-template-rows: 280px 280px 280px 280px 280px 280px 280px 280px 280px 280px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "a1 a2"
+                         "a1 a3"
+                         "a4 a5"
+                         "a4 a6"
+                         "a7 a8"
+                         "a7 a9"
+                         "a10 a11"
+                         "a10 a12"
+                         "a13 a14"
+                         "a13 a15";
+                        
+    align-items: stretch;
+    justify-items: stretch;
+ 
+}
+#Integrantes_F1{
+    grid-area: a1;
+
+}
+#Integrantes_F2{
+    grid-area: a4;
+}
+#Integrantes_F3{
+    grid-area: a7;
+}
+#Integrantes_F4{
+    grid-area: a10;
+}
+#Integrantes_F5{
+    grid-area: a13;
+}
+#Integrantes_R1{
+    grid-area: a2;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+}
+#Integrantes_R2{
+    grid-area: a5;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100%;
+    color: whitesmoke;
+}
+#Integrantes_R3{
+    grid-area: a8;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100%;
+    color: whitesmoke;
+}
+#Integrantes_R4{
+    grid-area: a11;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+}
+#Integrantes_R5{
+    grid-area: a14;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100%;
+    color: whitesmoke;
+}
+#Integrantes_T1{
+    display: flex;
+    grid-area: a3;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 100%;
+    color: whitesmoke;
+}
+#Integrantes_T2{
+    grid-area: a6;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 100%;
+    color: whitesmoke;
+}
+#Integrantes_T3{
+    grid-area: a9;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 100%;
+    color: whitesmoke;
+}
+#Integrantes_T4{
+    grid-area: a12;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 100%;
+    color: whitesmoke;
+}
+#Integrantes_T5{
+    grid-area: a15;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 100%;
+    color: whitesmoke;
+}
+@media screen and (max-width:480px) {
+    #Integrantes_M5{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+    }
+    #Integrantes_R1{
+        font-size: 20px;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        color: whitesmoke;
+    }
+    #Integrantes_R2{
+        font-size: 20px;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 100%;
+        color: whitesmoke;
+    }
+    #Integrantes_R3{
+        font-size: 20px;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 100%;
+        color: whitesmoke;
+    }
+    #Integrantes_R4{
+        font-size: 20px;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        color: whitesmoke;
+    }
+    #Integrantes_R5{
+        font-size: 20px;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 100%;
+        color: whitesmoke;
+    }
+    #Integrantes_T1{
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 100%;
+        color: whitesmoke;
+    }
+    #Integrantes_T2{
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 100%;
+        color: whitesmoke;
+    }
+    #Integrantes_T3{
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 100%;
+        color: whitesmoke;
+    }
+    #Integrantes_T4{
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 100%;
+        color: whitesmoke;
+    }
+    #Integrantes_T5{
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 100%;
+        color: whitesmoke;
+    }
+}
+form{
+    color: whitesmoke;
+    font-size: medium;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+footer{
+
+    background-image: url(../img/Fondo_test_3.jpg);
+    width: 100%;
+    padding-top: 3%;
+    height: auto;
+}
+#icons{
+
+    background-image: url(../img/Fondo_test_3.jpg);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    height: 70px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#fb{
+    height: 55px;
+    width: 60px;
+    animation-name: fb;
+    animation-duration: 3.5s;
+}
+#tw{
+    height: 55px;
+    width: 60px;
+    animation-name: tw;
+    animation-duration: 3.5s;
+}
+#wsp{
+    height: 55px;
+    width: 60px;
+    animation-name: wsp;
+    animation-duration: 3.5s;
+}
+#ig{
+    height: 55px;
+    width: 60px;
+    animation-name: ig;
+    animation-duration: 3.5s;
+}
+@keyframes fb{
+    0%{
+        transform: scale(0.6);
+    }
+}
+@keyframes tw{
+    0%{
+        transform: scale(0.6);
+    }
+}
+@keyframes wsp{
+    0%{
+        transform: scale(0.6);
+    }
+}
+@keyframes ig{
+    0%{
+        transform: scale(0.6);
+    }
+}
+    
+
+p{
+    color: white;
+    text-align: center
+
+}
+p1{
+    color:whitesmoke;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    text-align: start;
+
+}
+p2{
+    color: whitesmoke;
+    font-size: medium;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+}
+
+
+
